@@ -1,0 +1,79 @@
+html{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:linear-gradient(135deg, hsl(224, 100%, 50%), hsl(177, 100%, 50%));
+}
+body{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background:blanchedalmond;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 15px 400px black;
+    animation: aparecer 1s ease-in-put;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(255,76,30);
+    text-shadow: 3px 3px 15px rgb(255,101,30);
+
+}
+h2{
+    font-size: 27.5px;
+    color: rgb(255,101,30);
+    border-left: 8px solid rgb(255, 150, 30);
+    padding-left: 10px;
+}
+p.li{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.5;
+}
+img,iframe{
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 10px 20px rgb(255,101,30);
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+a{
+    color: rgb(255,101,30);
+    text-decoration: none;
+    font-weight: bold;
+}
+img:hover{
+    transform: scale(1.05) rotate(1deg);
+}
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        text-replace: translateY(0)
+    }
+}
+h1{
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 10px 20px rgb(255,101,30);
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+h1:hover{
+    transform: scale(1.02) rotate(3deg)
+}
+h2:hover{
+    padding-left: 12px;
+    border-left: 8px solid blue;
+}
+ul:hover{
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 15px 20px hsla(229, 100%, 56%, 0.76);
+    border-radius: 30px;
+    transition: 0.6s ease;
+    color:rgb(255,101,30);
+}
